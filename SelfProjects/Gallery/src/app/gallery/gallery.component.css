@@ -1,0 +1,21 @@
+.add-button {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 10%;
+    top: 80%;
+}
+.delete-button {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 10%;
+    top: 90%;
+}
+.img-url {
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    right: 15%;
+    top: 87%;
+}

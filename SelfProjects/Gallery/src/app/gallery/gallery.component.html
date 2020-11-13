@@ -1,0 +1,5 @@
+<app-main-image  [mainImageOut] = 'mainImageOut'  ></app-main-image >
+    <button class="add-button" (click) = 'addImg()'>+</button>
+     <button class="delete-button" (click) = 'delete()'>-</button>
+     <input class="img-url" type="text"/>
+<app-preview [images]='images'  (ChangedImageInPreview)= "ChangedImageInPreview($event)"></app-preview>
